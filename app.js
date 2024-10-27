@@ -38,7 +38,9 @@ const checkwinner = () => {
     }
   }
 };
- let reset=()=>{
+/* let reset=()=>{
    window.location.reload();
- }
-btn2.addEventListener('click',reset)
+ } */
+btn2.addEventListener('click',()=>{
+   window.location.reload();
+})
